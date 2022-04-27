@@ -1,0 +1,41 @@
+.mainContainer{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    z-index: 2;
+}
+.contentContainerBackground{
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    z-index: 900;
+}
+.contentContainer{
+    padding:30px;
+}
+.logoContainer{
+    background-color: black;
+    display: block;
+    overflow: hidden;
+    
+}
+.logo{
+   overflow:hidden;
+   display: inline-flex;
+}
+.textInputContainer{
+    padding: 10px 0;
+}
+.submitButton{
+    background-color: black !important;
+    color: white !important;
+    transition: .5s;
+    height: 40px;
+}
+.submitButton:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,54 @@
+body{
+    margin: 0px
+}
+.mainContainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black; 
+    overflow: hidden;
+    position: relative;    
+}
+.logoContainer{
+    display: inline;
+    margin-top: 50px;
+    overflow: hidden;
+    z-index: 0;
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vh 0 0;
+    width: 100%;
+    z-index: 2;
+}
+.authButtonContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    z-index: 2;
+}
+.button{
+    margin: 30px;
+    width: 100%;
+    max-width: 350px;
+    z-index: 2;
+    height: 40px;
+    transition: .5s transform;
+}
+.button:hover{
+    transform: scale(1.05);
+}
+
+.title{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 50px  200px 0;
+    align-items: center;
+    z-index: 1;
+
+}

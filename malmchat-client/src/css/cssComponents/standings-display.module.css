@@ -1,0 +1,13 @@
+.lottie{
+    width: 20%;
+}
+.lottieContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.mainContainer{
+height: calc(100vh / 3);
+overflow-y: auto;
+}
